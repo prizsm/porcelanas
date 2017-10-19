@@ -1,0 +1,35 @@
+<article>
+    <div id="banner"><img src="static/img/menu/1.jpg" alt="Banner"></div>
+    
+    <div id="cidinha1">
+        <h1>SOBRE</h1>
+        <a href="sobre.html" id="cidinhamobile">SOBRE</a>
+        <img src="static/img/menu/cidinha001.png">
+        <p>Cidinha Caetano é uma artesã de Santos, que transforma peças de porcelana em obras de arte. Com mais de 30 anos de experiência no mercado, faz peças personalizadas e ministra aulas para aprendizes.<br></p>
+        <p><a href="orcamento.html" class="botao">SAIBA MAIS</a></p>
+
+    <div id="portfolio1">
+        <h1>PORTFOLIO</h1>
+        <a href="portfolio.html" id="portfoliomobile">PORTFOLIO</a>
+        <img src="static/img/menu/cidinha001-.jpg" class="img-port">
+        <img src="static/img/menu/cidinha001-.jpg" class="img-port">
+        <img src="static/img/menu/cidinha001-.jpg" class="img-port">
+        <img src="static/img/menu/cidinha001-.jpg" class="img-port">
+        <img src="static/img/menu/cidinha001-.jpg" class="img-port">
+        <p><a href="orcamento.html" class="botao">VEJA MAIS TRABALHOS</a></p>
+
+    <div id="porcelana1">
+        <a href="@{OrcporcelanaR}" id="porcelanamobile">ORÇAMENTO DE PORCELANAS</a>
+        <h1>PORCELANAS PERSONALIZADAS</h1>
+        <p>Seja para presentear alguém ou decorar sua casa ou escritório, nada mais sofisticado do que uma porcelana personalizada. Além de um toque de requinte, uma porcelana de qualidade conserva a delicadeza por muitos e muitos anos, passando por várias gerações de uma mesma família.</p>
+        <p>A Cidinha Porcelanas só trabalha com porcelanas de qualidade, queimadas em forno de alta temperatura, que possibilitam que a louça possam ir ao forno  ou ao microondas, sem perder seu personalização.</p>
+        <p>Quer surpreender alguém especial com algo diferente e único? Dê um presente em Porcelana. Peça seu orçamento através do nosso formulário.</p>
+        <p class="ultimop">Ah! Também trabalhamos com taças e utensílios de vidro.</p>
+        <p class="ultimop"><a href="@{OrcporcelanaR}" class="botao">FAÇA UM ORÇAMENTO</a></p>
+
+    <div id="moldura1">
+        <h1>MOLDURAS PERSONALIZADAS</h1>
+        <a href="@{OrcmolduraR}" id="molduramobile">ORÇAMENTO DE MOLDURAS</a>
+        <p>Peça seu orçamento através do nosso formulário, e saiba na hora quanto você vai gastar para decorar sua casa ou escritório, além de saber em quanto tempo seu quadro ficará  pronto. Nosso sistema possui mais de 30 modelos para sua escolha.
+        <p class="ultimop">Para outros orçamentos, entre em contato através do nosso formulário, telefone ou Whatsapp.
+        <p class="ultimop"><a href="@{OrcmolduraR}" class="botao">FAÇA UM ORÇAMENTO</a>

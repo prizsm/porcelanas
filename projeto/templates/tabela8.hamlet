@@ -1,0 +1,39 @@
+^{menu3}
+
+<br><br>
+<table border="2px" align="center" margin="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> STATUS 
+        <td><strong> NOME CLIENTE
+        <td><strong> TELEFONE
+        <td><strong> TIPO
+        <td><strong> SUB-TIPO
+        <td><strong> QUANTIDADE
+        <td><strong> ARTE
+        <td><strong> ENTRADA
+        <td><strong> SAIDA
+        <td><strong> OBSERVAÇÃO
+        <td><strong> PAGAMENTO
+        <td><strong> VALOR FINAL
+        
+    $forall Entity pedporid pedidoporcelana <- porcelanas
+        <tr>
+            <form> 
+                <td> #{show $ fromSqlKey                 pedporid}  
+                <td> #{pedidoporcelanaStatus          pedidoporcelana}
+                <td> #{pedidoporcelanaClientenome     pedidoporcelana}
+                <td> #{pedidoporcelanaClientetelefone pedidoporcelana}
+                <td> #{pedidoporcelanaTipo            pedidoporcelana}
+                <td> #{pedidoporcelanaSubtipo         pedidoporcelana}
+                <td> #{pedidoporcelanaQuantidade      pedidoporcelana}
+                <td> #{pedidoporcelanaArte            pedidoporcelana}
+                <td> #{pedidoporcelanaEntrada         pedidoporcelana}
+                <td> #{pedidoporcelanaSaida           pedidoporcelana}
+                <td> #{pedidoporcelanaObservacao      pedidoporcelana}
+                <td> #{pedidoporcelanaPagamento       pedidoporcelana}
+                <td> #{pedidoporcelanaValorfinal      pedidoporcelana}
+                <td> <button type="submit" formmethod="post" formaction=@{DelPedidoporcelanaR pedporid}>Excluir</button>
+                <td> <button type="submit" formmethod="get" formaction=@{EditarQuantidadePedido pedporid}>Alterar</button>
+
+<br><br>

@@ -1,0 +1,10 @@
+    <div id="outros1">
+        <div id="endereco1"><img src="static/img/menu/iconemapa.png"></div>
+        <div id="endereco2"><h3>ENDEREÇO:</h3>
+            <p>Rua Maranhão, 48 - Santos/SP<br>
+            Tel: (13) 3237-9144</p></div>
+        <div id="face1">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcidinha.porcelanas%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+
+    <div id="mapa1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.8402705829017!2d-46.346667085549!3d-23.966087784483488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce033dc20aab55%3A0x3860790e4325ce4!2sR.+Maranh%C3%A3o%2C+48+-+Pomp%C3%A9ia%2C+Santos+-+SP%2C+11065-410!5e0!3m2!1spt-BR!2sbr!4v1500599540280" class="mapagoogle"></iframe>

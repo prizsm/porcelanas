@@ -1,0 +1,22 @@
+^{menu3}
+
+<br><br>
+<table border="2px" align="center" margin="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> Nome 
+        <td><strong> Telefone
+        <td><strong> Email
+        <td><strong> Mensagem
+        <td>
+
+    $forall Entity fcid falecom <- contatos
+        <tr>
+            <form action=@{DelFalecomR fcid} method=post> 
+                <td> #{show $ fromSqlKey          fcid}  
+                <td> #{falecomNome                falecom} 
+                <td> #{falecomTelefone            falecom} 
+                <td> #{falecomEmail               falecom}
+                <td> #{falecomMensagem            falecom} 
+                <td> <input type="submit" value="Excluir">
+<br><br>

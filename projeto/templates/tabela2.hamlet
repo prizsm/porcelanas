@@ -1,0 +1,15 @@
+<br><br>
+<table border="1px" align="center" padding="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> Email 
+        <td><strong> Senha 
+
+    $forall Entity uid usr <- usuarios
+        <tr>
+            <form action=@{DelUsrR uid} method=post> 
+                <td> #{show $ fromSqlKey            uid}  
+                <td> #{usrEmail                     usr} 
+                <td> #{usrSenha                     usr} 
+                <td> <input type="submit" value="Excluir">
+<br><br>

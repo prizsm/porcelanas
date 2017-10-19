@@ -1,0 +1,48 @@
+/                                                         HomeR                     GET
+/static                                                   StaticR                   Static getStatic
+
+/faleconosco                                              FalecomR                  GET POST
+/faleconosco/listagem                                     ListFalecomR              GET
+/faleconosco/apagar/#FalecomId                            DelFalecomR               POST
+
+/usuariocadastro                                          UsrR                      GET POST
+/usuariologin                                             LoginR                    GET POST
+/usuariolistagem                                          ListUsrR                  GET
+/usuarioapagar/#UsrId                                     DelUsrR                   POST
+/logout                                                   LogoutR                   POST
+/perfil                                                   PerfilR                   GET
+
+porcelana/cadastro                                        EstoqueporcelanaR         GET POST
+porcelana/listagem                                        ListEstoqueporcelanaR     GET
+porcelana/apagar/#EstoqueporcelanaId                      DelEstoqueporcelanaR      POST
+porcelana/editar/#EstoqueporcelanaId                      EditarQuantidadeEstoqueR  GET POST
+
+moldura/cadastro                                          EstoquemolduraR           GET POST
+moldura/listagem                                          ListEstoquemolduraR       GET
+moldura/apagar/#EstoquemolduraId                          DelEstoquemolduraR        POST
+moldura/editar/#EstoquemolduraId                          EditarQtdeEstoqueR        GET POST
+
+orcamentomoldura                                          OrcmolduraR               GET POST
+orcamento/moldura/listagem                                ListOrcmolduraR           GET
+orcamento/moldura/apagar/#OrcmolduraId                    DelOrcmolduraR            POST
+orcamentomoldurafinal/#OrcmolduraId                       OrcmoldurafinalR          GET
+
+orcamentoporcelana                                        OrcporcelanaR             GET POST
+orcamento/porcelana/listagem                              ListOrcporcelanaR         GET
+orcamento/porcelana/apagar/#OrcporcelanaId                DelOrcporcelanaR          POST
+orcamentoporcelanafinal/#OrcporcelanaId                   OrcporcelanafinalR        GET
+
+moldura/pedido/cadastro                                   PedidomolduraR            GET POST
+moldura/pedido/listagem                                   ListPedidomolduraR        GET
+moldura/pedido/apagar/#PedidomolduraId                    DelPedidomolduraR         POST
+moldura/pedido/editar/#PedidomolduraId                    EditarQtdePedidoR         GET POST
+
+porcelana/pedido/cadastro                                 PedidoporcelanaR          GET POST
+porcelana/pedido/listagem                                 ListPedidoporcelanaR      GET
+porcelana/pedido/apagar/#PedidoporcelanaId                DelPedidoporcelanaR       POST
+porcelana/pedido/editar/#PedidoporcelanaId                EditarQuantidadePedidoR   GET POST
+
+/adm                                                      AdmR                      GET
+/endereco                                                 EnderecoR                 GET
+/sobre                                                    SobreR                    GET
+/portfolio                                                PortfolioR                GET

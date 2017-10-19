@@ -1,0 +1,20 @@
+^{menu3}
+
+<br><br>
+<table border="2px" align="center" margin="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> CODIGO 
+        <td><strong> QUANTIDADE
+        <td><strong> OBSERVACAO
+
+    $forall Entity molid estoquemoldura <- molduras
+        <tr>
+            <form> 
+                <td> #{show $ fromSqlKey                      molid}  
+                <td> #{estoquemolduraCodigo          estoquemoldura} 
+                <td> #{estoquemolduraQuantidade      estoquemoldura} 
+                <td> #{estoquemolduraObservacao      estoquemoldura} 
+                <td> <button type="submit" formmethod="post" formaction=@{DelEstoquemolduraR molid}>Excluir</button>
+                <td> <button type="submit" formmethod="get" formaction=@{EditarQtdeEstoqueR molid}>Alterar</button>
+<br><br>

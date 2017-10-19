@@ -1,0 +1,678 @@
+html, body { 
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	font-size:18px;
+	margin:0;
+}
+
+#voltar{
+	position:fixed;
+	right:15px;
+	bottom:-5px;
+	z-index:1;
+	width:60px;
+	background-color:#ffc942;
+	border: solid 1px #333;
+	border-radius:50% 50% 0 0;
+	padding:20px;
+	text-align:center;
+	font-size:13px;
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+}
+	
+#voltar:hover{
+	background-color:#2980B9;
+}
+
+#voltar2{
+	display:none;
+}
+
+header{
+	position:relative;
+	margin-top:-1.5%;
+	clear:both;
+	width: 100%;
+	background-color:#2980B9;
+}
+
+#logo{
+	max-width:15%;
+	float: left;
+	margin-left: 10%;
+}
+
+nav{
+	font-size:12px;
+	text-align: center;
+	padding-bottom:1.5%;
+}
+
+nav ul{
+	padding-top:3%;
+}
+
+nav li{
+	font-size:18px;
+	display: inline;
+	list-style-type:none;
+	text-decoration: none;
+}
+ 
+nav li a{
+	padding-right:2%;
+	padding-left:2%;
+	text-decoration: none;
+	color:#fff;
+	font-weight:100;
+	border-right:2px solid rgba(255,255,255,0.5);
+}
+
+.nav3{
+	font-size:12px;
+	text-align: center;
+	padding-bottom:1.5%;
+}
+
+.nav3 ul{
+	padding-top:3%;
+}
+
+.nav3 li{
+	font-size:18px;
+	display: inline;
+	list-style-type:none;
+	text-decoration: none;
+}
+ 
+.nav3 li a{
+	padding-right:2%;
+	padding-left:2%;
+	text-decoration: none;
+	color:#fff;
+	font-weight:100;
+	border-right:2px solid rgba(255,255,255,0.5);
+}
+
+.ultimoli li a{
+	border-right:0px;
+}
+
+nav li a:hover{
+	transition:0.5s;
+	text-decoration: none;
+	color:#fff;
+	background-color: #ffc942;
+}
+
+#header2{
+	position:relative;
+	margin-top:-1.5%;
+	clear:both;
+	width: 100%;
+	background-color:#2980B9;
+}
+
+#nav2{
+	font-size:12px;
+	text-align: center;
+	padding-bottom:1.5%;
+}
+
+#nav2 ul{
+	padding-top:3%;
+}
+
+#nav2 li{
+	font-size:18px;
+	display: inline;
+	list-style-type:none;
+	text-decoration: none;
+}
+ 
+#nav2 li a{
+	padding-right:2%;
+	padding-left:2%;
+	text-decoration: none;
+	color:#fff;
+	font-weight:100;
+	border-right:2px solid rgba(255,255,255,0.5);
+}
+
+article{
+	clear:both;
+}
+
+#banner{
+    height:100vh;
+}
+
+#banner  img{
+	width: 100%;
+	margin:0;
+}
+
+#cidinha1{
+	position:relative;
+	color:#fff;
+	background: url("/static/img/menu/fundo-sobre002.jpg");
+	background-size: cover;
+	text-align: center;
+	height:100vh;
+	padding: 1% 25%;
+}
+
+#cidinha1 h1{
+	padding-top: 5%;
+}
+
+#cidinha1 p{
+	padding: 1% 0;
+}
+
+#cidinha1 img{
+	margin-top:0.5%;
+	width: 250px;
+}
+
+#cidinhamobile{
+	display: none;
+}
+
+#portfolio1{
+	position:relative;
+	color:#000;
+	text-align: center;
+	padding: 2% 5%;
+	height:100vh;
+}
+
+#portfolio1 h1{
+	padding-top: 5%;
+}
+
+#portfolio1 p{
+	padding-top: 1%;
+	padding-bottom: 9%;
+}
+
+#portfoliomobile{
+	display: none;
+}
+
+.img-port{
+	border-radius: 10% 10%;
+	width: 15%;
+	padding:1%;
+}
+
+#porcelanamobile{
+	display:none;
+}
+
+#porcelana1{
+	position:relative;
+	color:#000;
+	background: url("/static/img/menu/fundo-porc001.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 0 25%;
+	height:100vh;
+}
+
+#porcelana1 h1{
+	padding-top: 3%;
+}
+
+.ultimop{
+	padding-bottom:8%;
+}
+
+#moldura1{
+	position:relative;
+	color:#fff;
+	background: url("/static/img/menu/fundo-mold001.jpg");
+	text-align:center;
+	background-size: cover;
+	height:100vh;
+	box-sizing:border-box;
+	padding: 2% 25%;
+}
+
+#moldura1 h1{
+	padding-top: 4%;
+}
+
+#moldura1 p{
+	padding-bottom: 0.5%;
+}
+
+#molduramobile{
+	display: none;
+}
+
+.cadastro{
+	padding-left:30px;
+}
+
+#contato1{
+	position:relative;
+	color:#000;
+	padding: 2% 20%;
+	height:100vh;
+	font-size:1em;
+}
+
+#contato1 h1{
+	padding-top: 8%;
+	text-align: center;
+}
+
+#contato1 p{
+	padding-top: 1%;
+}
+
+#contato1 input{
+	width: 100%;
+	font-size:1em;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+.alterar1 p{
+	margin-left:10%;
+}
+
+.orcamento1{
+	position:relative;
+	color:#000;
+	padding: 2% 20%;
+	background: url("/static/img/menu/folha001.png");
+	background-size: cover;
+	height:100vh;
+}
+
+.orcamento1 h2{
+	padding-top: 8%;
+	text-align: center;
+}
+
+.orcamento1 p{
+	padding-top: 1%;
+}
+
+.orcamento1 input{
+	width: 100%;
+	font-size:1em;
+	margin-bottom:2%;
+}
+
+.orcamento1 select{
+	width: 100%;
+	font-size:1em;
+	margin-bottom:2%;
+	clear:both;
+}
+
+.orcamento2{
+	position:relative;
+	color:#000;
+	padding: 2% 20%;
+	height:100vh;
+}
+
+.orcamento2 h2{
+	padding-top: 8%;
+	text-align: center;
+}
+
+.orcamento2 input{
+	width: 100%;
+	font-size:1em;
+	margin-bottom:2%;
+}
+
+.botao2{
+	margin-top: 2%;
+	text-decoration: none;
+	color:#000;
+	padding:1.5%;
+	background-color:#ffc942;
+	font-weight: bold;
+	width:auto !important;
+}
+
+.botao2:hover{
+	background-color:#2980B9;
+	color:#fff;
+	transition:0.5s;
+}
+
+#outros1{
+	position:relative;
+	width: 100%;
+	margin-top:0px;
+	display:inline;
+	text-align:center;
+	padding-top:4%;
+}
+
+#endereco1{
+	padding-top:20px;
+	padding-left:20px;
+	float:left;
+}
+
+#endereco2{
+	padding-left:20px;
+	float:left;
+	text-align:center;
+}
+
+#face1{
+	padding-right:20px;
+	float:right;
+}
+
+#mapa1{
+	height: 350px;
+	width: 99.5%;
+	margin-top:0px;
+	float: left;
+}
+
+.mapagoogle{
+	width:100%;
+	height:90%;
+}
+
+
+.botao{
+	text-decoration: none;
+	color:#000;
+	padding:1.5%;
+	background-color:#ffc942;
+	font-weight: bold;
+}
+
+.botao:hover{
+	background-color:#2980B9;
+	color:#fff;
+	transition:0.5s;
+}
+
+footer{
+	clear: both;
+	padding: 0.2%;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+form{
+	padding-left: 10%;
+	clear:right;
+}
+
+td{
+	text-align: center;
+	clear:right;
+	padding: 2px;
+}
+
+
+@media all and (max-width: 800px){
+#cidinha1{
+	padding: 1% 10%;
+}
+
+#portfolio1{
+	padding: 1% 10%;
+}
+
+#moldura1{
+	padding: 1% 10%;
+}
+
+#porcelana1{
+	padding: 1% 10%;
+}
+
+#contato1{
+	padding: 1% 10%;
+}
+
+#cidinha1 h1{
+	padding-top: 2%;
+}
+
+#portfolio1 h1{
+	padding: 0;
+}
+
+.img-port{
+	width: 25%;
+	padding:1%;
+}
+
+#moldura1 h1{
+	padding: 2%;
+}
+
+#porcelana1 h1{
+	padding: 2%;
+}
+
+#contato1 h1{
+	padding: 2%;
+}
+
+#endereco1{
+	padding-left:20%;
+}
+
+#face1{
+	clear: both;
+	float:none;
+	padding-left:20%;
+}
+}
+
+@media all and (max-width: 500px){
+html, body{
+	width:100%;
+}
+
+header{
+	background-color:#fff;
+}
+
+#voltar{
+	display:none;
+}
+
+#voltar2{
+	position:fixed;
+	right:15px;
+	bottom:-5px;
+	z-index:1;
+	width:60px;
+	background-color:#ffc942;
+	border: solid 1px #333;
+	border-radius:50% 50% 0 0;
+	padding:20px;
+	text-align:center;
+	font-size:13px;
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+}
+
+#logo{
+	max-width:50%;
+	margin-left: 25%;
+}
+
+nav li{
+	display: none;
+}
+
+.nav3{
+	text-align: center;
+	padding-bottom:1.5%;
+}
+
+.nav3 ul{
+	padding-top:1%;
+}
+
+.nav3 li{
+	font-size:18px;
+	display: block;
+	list-style-type:none;
+	text-decoration: none;
+	clear: both;
+	text-align: center;
+}
+
+.nav3 li a{
+	border-right:0px;
+}
+
+#banner{
+	height:auto;
+}
+
+#cidinha1{
+	background: url("/static/img/menu/fundo-sobre001.jpg");
+	height:auto;
+	background-size: cover;
+}
+
+#cidinhamobile{
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	color:#fff;
+	font-weight: bold;
+	padding:20% 0;
+	width:100hv;
+	font-size:25px;
+}
+
+#cidinha1 img{
+	display:none;
+}
+
+#cidinha1 p{
+	display:none;
+}
+
+#cidinha1 h1{
+	display:none;
+}
+
+#portfolio1{
+	background: url("/static/img/menu/fundo-home002.jpg");
+	height:auto;
+	background-size: cover;
+}
+
+#portfoliomobile{
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	color:#000;
+	font-weight: bold;
+	padding:10% 0;
+	width:100hv;
+	font-size:25px;
+}
+
+#portfolio1 img{
+	display:none;
+}
+
+#portfolio1 p{
+	display:none;
+}
+
+#portfolio1 h1{
+	display:none;
+}
+
+#porcelana1{
+	height:auto;
+}
+
+#porcelanamobile{
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	color:#000;
+	font-weight: bold;
+	padding:25% 0;
+	width:100hv;
+	font-size:25px;
+}
+
+#porcelana1 img{
+	display:none;
+}
+
+#porcelana1 p{
+	display:none;
+}
+
+#porcelana1 h1{
+	display:none;
+}
+	
+	
+#moldura1{
+	height:auto;
+}
+
+#molduramobile{
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	color:#fff;
+	font-weight: bold;
+	padding:25% 0;
+	width:100hv;
+	font-size:25px;
+}
+
+#moldura1 img{
+	display:none;
+}
+
+#moldura1 p{
+	display:none;
+}
+
+#moldura1 h1{
+	display:none;
+}
+
+#mapa1{
+	clear: right;
+	width: 99%;
+}
+
+#endereco1{
+	padding-left:10px;
+}
+
+#face1{
+	margin-top:80px;
+	width: 99%;
+	padding-right:0;
+}
+
+form{
+	padding-left: 5%;
+}

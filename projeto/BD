@@ -1,0 +1,5 @@
+sudo service postgresql start
+psql -h ec2-54-221-226-148.compute-1.amazonaws.com -p 5432 -U ixrgpegxdbuhlb -W dc92svd8320e58
+
+SENHA
+lvEN2G2U0KvfPq9aSRf1AT59KF

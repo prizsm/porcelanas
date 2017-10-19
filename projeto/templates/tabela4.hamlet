@@ -1,0 +1,25 @@
+<br><br>
+<table border="1px" align="center" padding="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> Comer
+        <td><strong> Qtde Comer
+        <td><strong> Beber
+        <td><strong> Qtde Beber
+        <td><strong> Outros
+        <td><strong> Qtde Outros
+        <td><strong> Arte
+
+    $forall Entity orcporcid orcporcelana <- orcporcelanas
+        <tr>
+            <form action=@{DelOrcporcelanaR orcporcid} method=post> 
+                <td> #{show $ fromSqlKey                     orcporcid}  
+                <td> #{orcporcelanaComer                     orcporcelana} 
+                <td> #{orcporcelanaQtdecomer                 orcporcelana} 
+                <td> #{orcporcelanaBeber                     orcporcelana} 
+                <td> #{orcporcelanaQtdebeber                 orcporcelana} 
+                <td> #{orcporcelanaOutros                    orcporcelana} 
+                <td> #{orcporcelanaQtdeoutros                orcporcelana} 
+                <td> #{orcporcelanaArte                      orcporcelana} 
+                <td> <input type="submit" value="Excluir">
+<br><br>

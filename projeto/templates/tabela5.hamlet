@@ -1,0 +1,19 @@
+<br><br>
+<table border="1px" align="center" padding="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> Lado 1
+        <td><strong> Lado 2
+        <td><strong> Modelo
+        <td><strong> Paspatour
+
+    $forall Entity orcmolid orcmoldura <- orcmolduras
+        <tr>
+            <form action=@{DelOrcmolduraR orcmolid} method=post> 
+                <td> #{show $ fromSqlKey                     orcmolid}  
+                <td> #{orcmolduraLado1                       orcmoldura} 
+                <td> #{orcmolduraLado2                       orcmoldura} 
+                <td> #{orcmolduraModelo                      orcmoldura} 
+                <td> #{orcmolduraPaspatour                   orcmoldura} 
+                <td> <input type="submit" value="Excluir">
+<br><br>

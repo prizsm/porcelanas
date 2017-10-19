@@ -1,0 +1,8 @@
+<header id="header2"><nav class="nav3"><h1><img src="https://cidinha-prizsorensen.c9users.io/static/img/menu/logo001.png" id="logo" alt="Cidinha Porcelanas"</h1>
+    <ul id="menu">
+        <li><a href="/sobre">SOBRE</a></li>
+        <li><a href="/portfolio">PORTFOLIO</a></li>
+        <li><a href="/orcamentoporcelana">PORCELANAS</a></li>
+        <li><a href="/orcamentomoldura">MOLDURAS</a></li>
+        <li><a href="/faleconosco">CONTATO</a></li>
+        <span class="ultimoli"><li><a href="/endereco">ENDEREÇO</a></li></span></header>

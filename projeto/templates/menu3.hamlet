@@ -1,0 +1,9 @@
+<header id="header2"><nav id="nav3">
+    <ul id="menu2">
+        <li><a href="#cidinha1">CONTATOS RECEBIDOS</a></li>
+        <li><a href="#portfolio1">USUÁRIOS CADASTRADOS</a></li>
+        <li><a href="#porcelana1">ESTOQUE PORCELANA</a></li>
+        <li><a href="#moldura1">ESTOQUE MOLDURAS</a></li>
+        <li><a href="#contato1">PEDIDOS MOLDURAS</a></li>
+        <li><a href="#outros1">PEDIDOS PORCELANAS</a></li>
+        <span class="ultimoli"><li><a href=@{LogoutR}>SAIR</a></li></span>

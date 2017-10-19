@@ -1,0 +1,13 @@
+^{menu2}
+
+<div class="orcamento1">
+    <h2>Orçamento de número #{show $ fromSqlKey orcporcid}</h2>
+    <p>Comer: #{orcporcelanaComer orcporcelana}
+    <p>Lado 2: #{orcporcelanaQtdecomer orcporcelana}
+    <p>Lado 1 #{orcporcelanaBeber orcporcelana}
+    <p>Lado 2: #{orcporcelanaQtdebeber orcporcelana}
+    <p>Lado 1 #{orcporcelanaOutros orcporcelana}
+    <p> Lado 2: #{orcporcelanaQtdeoutros orcporcelana}
+    <p> Lado 2: #{orcporcelanaArte orcporcelana}
+
+^{rodape}

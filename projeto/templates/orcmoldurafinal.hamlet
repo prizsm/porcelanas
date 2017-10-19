@@ -1,0 +1,10 @@
+^{menu2}
+
+<div class="orcamento1">
+    <h2>Orçamento de número #{show $ fromSqlKey orcmolid}</h2>
+    <p> Lado 1 #{orcmolduraLado1 orcmoldura}
+    <p> Lado 2: #{orcmolduraLado2 orcmoldura}
+    <p> Modelo: #{orcmolduraModelo orcmoldura}
+    <p> Paspa: #{orcmolduraPaspatour orcmoldura}
+
+^{rodape}

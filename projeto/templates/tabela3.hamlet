@@ -1,0 +1,26 @@
+^{menu3}
+
+<br><br>
+<table border="2px" align="center" margin="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> CODIGO 
+        <td><strong> TIPO 
+        <td><strong> SUBTIPO 
+        <td><strong> TAMANHO
+        <td><strong> QUANTIDADE
+        <td><strong> OBSERVACAO
+
+    $forall Entity porcid estoqueporcelana <- porcelanas
+        <tr>
+            <form> 
+                <td> #{show $ fromSqlKey                      porcid}  
+                <td> #{estoqueporcelanaCodigo          estoqueporcelana} 
+                <td> #{estoqueporcelanaTipo            estoqueporcelana} 
+                <td> #{estoqueporcelanaSubtipo         estoqueporcelana} 
+                <td> #{estoqueporcelanaTamanho         estoqueporcelana} 
+                <td> #{estoqueporcelanaQuantidade      estoqueporcelana} 
+                <td> #{estoqueporcelanaObservacao      estoqueporcelana} 
+                <td> <button type="submit" formmethod="post" formaction=@{DelEstoqueporcelanaR porcid}>Excluir</button>
+                <td> <button type="submit" formmethod="get" formaction=@{EditarQuantidadeEstoqueR porcid}>Alterar</button>
+<br><br>

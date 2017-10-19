@@ -1,0 +1,43 @@
+^{menu3}
+
+<br><br>
+<table border="2px" align="center" margin="30px">
+    <tr> 
+        <td><strong> ID  
+        <td><strong> STATUS 
+        <td><strong> NOME CLIENTE
+        <td><strong> TELEFONE
+        <td><strong> LADO 1
+        <td><strong> LADO 2
+        <td><strong> QUANTIDADE
+        <td><strong> MODELO
+        <td><strong> PASPATUR
+        <td><strong> VIDRO
+        <td><strong> ENTRADA
+        <td><strong> SAIDA
+        <td><strong> OBSERVAÇÃO
+        <td><strong> PAGAMENTO
+        <td><strong> VALOR FINAL
+        
+    $forall Entity pedmolid pedidomoldura <- molduras
+        <tr>
+            <form> 
+                <td> #{show $ fromSqlKey                 pedmolid}  
+                <td> #{pedidomolduraStatus          pedidomoldura}
+                <td> #{pedidomolduraClientenome     pedidomoldura}
+                <td> #{pedidomolduraClientetelefone pedidomoldura}
+                <td> #{pedidomolduraLado1           pedidomoldura}
+                <td> #{pedidomolduraLado2           pedidomoldura}
+                <td> #{pedidomolduraQuantidade      pedidomoldura}
+                <td> #{pedidomolduraModelo          pedidomoldura}
+                <td> #{pedidomolduraPaspatour       pedidomoldura}
+                <td> #{pedidomolduraVidro           pedidomoldura}
+                <td> #{pedidomolduraEntrada         pedidomoldura}
+                <td> #{pedidomolduraSaida           pedidomoldura}
+                <td> #{pedidomolduraObservacao      pedidomoldura}
+                <td> #{pedidomolduraPagamento       pedidomoldura}
+                <td> #{pedidomolduraValorfinal      pedidomoldura}
+                <td> <button type="submit" formmethod="post" formaction=@{DelPedidomolduraR pedmolid}>Excluir</button>
+                <td> <button type="submit" formmethod="get" formaction=@{EditarQtdePedidoR pedmolid}>Alterar</button>
+
+<br><br>
